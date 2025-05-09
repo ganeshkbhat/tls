@@ -1,0 +1,27 @@
+{
+  "name": "tls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --timeout 60000"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "keywords": [],
+  "author": "Ganesh B <desktopcgi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshkbhat/tls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ganeshkbhat/tls/issues"
+  },
+  "homepage": "https://github.com/ganeshkbhat/tls#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "sinon": "^20.0.0"
+  }
+}
